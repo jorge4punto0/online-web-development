@@ -9,56 +9,58 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="img/logo.png" alt="mi logo">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#experiencia">Experiencia</a></li>
-                    <li><a href="#contacto">Trabajemos juntos</a></li>
+                    <li><a class="link" href="#portafolio">Portafolio</a></li>
+                    <li><a class="link" href="#eventos">Eventos</a></li>
+                    <li><a class="link" href="#contacto">Trabajemos juntos</a></li>
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>Hola soy <strong>Jorge Salamanca</strong> <br> Frontend Developer y <br> Mentor en Platzi</h1>
         <img src="img/hero.jpg" alt="hero" width="500">
     </section>
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (proyectos destacados)</h2>
-        <article>
-            <h3>Platzi video</h3>
-            <h4>React native / React</h4>
-            <p><small><strong>Fecha:</strong> 01/11/2019</small></p>
+        <article class="projects">
+            <h3 class="project__title">Platzi video</h3>
+            <h4 class="project__course">React native / React</h4>
+            <p class="project__date"><small><strong>Fecha:</strong> 01/11/2019</small></p>
             <p><small><strong>Puedes verlo en: </strong> www.jorgesalamanca.com/dplay</small></p>
-            <p>Este es un proyecto realizado durante la escuela JavaScript en platzi junto a mi compañero de equipo @omarfg</p>
-            <img src="img/platzi-video-react-native.webp" alt="proyecto del curso" width="500">
-
-        </article>
-        
-    </section>
-    <section id="experiencia">
-        <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="img/platzi-conf.jpg" alt="Platzi conf" width="500">
+            <p class="project__description">Este es un proyecto realizado durante la escuela JavaScript en platzi junto a mi compañero de equipo @omarfg</p>
+            <figure class="project__imageContainer">
+                <img class="project__image" src="img/platzi-video-react-native.webp" alt="proyecto del curso" width="500">
             </figure>
-            <h3>Proyecto EmpoderaTech 2020 - Platzi / MorganJP</h3>
-            <p>En este proyecto tuve la fortuna de participar como uno de los mentores que llevarian a 180 chicos a ser los mejores en JavaScript.</p>
-            <a href="https://github.com/Jorgelisapa" target="_blank">Ver Repositorios</a>
         </article>
     </section>
-    <section id="contacto">
-        <form action="">
+    <section id="eventos">
+        <h2>Más sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event__imageContainer">
+                <img class="event__image" src="img/platzi-conf.jpg" alt="Platzi conf" width="500">
+            </figure>
+            <h3 class="event__title">Proyecto EmpoderaTech 2020 - Platzi / MorganJP</h3>
+            <p class="event__description">En este proyecto tuve la fortuna de participar como uno de los mentores que llevarian a 180 chicos a ser los mejores en JavaScript.</p>
+            <a class="event__url" href="https://github.com/Jorgelisapa" target="_blank">Ver Repositorios</a>
+        </article>
+    </section>
+    <section id="contacto" class="contact">
+        <form action="" class="form__email">
             <h3>¿Creamos algo juntos?</h3>
             <label for="email">Dejame tu email</label>
             <input type="datetime" placeholder="Dejame tu email" value="@gmail.com" name="" id="email">
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">
+        footer
+    </footer>
 </body>
 </html>
