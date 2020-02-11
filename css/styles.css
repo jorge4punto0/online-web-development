@@ -38,6 +38,11 @@ h1 strong {
     background-position-x: right;
 }
 
+.projects {
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
 .project__details {
     width: 500px;
 }
