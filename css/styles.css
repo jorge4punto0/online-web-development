@@ -77,11 +77,13 @@ h1 strong {
 /*  flex-direction: row; */
 /*  flex-direction: column; */
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .box__hijo {
-    width: 200px;
-    height: 200px;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
     border: 1px solid red;
     flex-shrink: 0;
 }
