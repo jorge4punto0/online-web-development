@@ -71,3 +71,17 @@ h1 strong {
     color: white;
     text-decoration: none;
 }
+
+.flexbox__padre {
+    display: flex;
+/*  flex-direction: row; */
+/*  flex-direction: column; */
+    flex-wrap: wrap;
+}
+
+.box__hijo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    flex-shrink: 0;
+}
