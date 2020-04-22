@@ -141,9 +141,55 @@ h2 {
     font-size: 20px;
 }
 
+.events h2 {
+    margin-left: 10px;
+}
 
+.event__list {
+    display: flex;
+}
 
+.event {
+    border: 1px solid red;
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f4fbff;
+}
 
+.event__imageContainer,
+.event__image {
+    width: inherit;
+}
+
+.event__image {
+    height: 250px;
+    object-fit: cover;
+}
+
+.event__details {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event__description {
+    text-align: left;
+}
+
+.event__url {
+    color: yellowgreen;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
 
 .footer {
     background-color: #1b1b1b;
