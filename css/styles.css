@@ -150,7 +150,6 @@ h2 {
 }
 
 .event {
-    border: 1px solid red;
     margin: 10px;
     width: 480px;
     flex-shrink: 0;
@@ -189,6 +188,60 @@ h2 {
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
+}
+
+.contact {
+    background-color: yellowgreen;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__email input {
+    border-color: gray;
+    border-style: solid;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.form__email button {
+    width: 100px;
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.form__email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social__link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px;
+    margin: 0 10px;
+}
+
+.social__link.twitter {
+    background-image: url('../img/github.svg');
+}
+
+.social__link.gitlab {
+    background-image: url('../img/github.svg');
+}
+
+.social__link.github {
+    background-image: url('../img/github.svg');
+}
+
+.social__link.linkedin {
+    background-image: url('../img/github.svg');
 }
 
 .footer {
