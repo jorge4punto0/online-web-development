@@ -8,7 +8,9 @@ celeste: #026fff
 body {
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-
+    width: 1000px;
+    margin: 0 auto;
+    background: #1B2127;
 }
 
 
@@ -88,13 +90,15 @@ h2 {
 
 .hero {
     height: 300px;
-    background-image: url(../img/hero.jpg);
     background-color: #1b2127;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x: right;
     display: flex;
-    align-items: center;
+    align-items: space;
+    justify-content: space-between;
+}
+
+.hero img {
+    object-fit: cover; 
+    height: 300px;
 }
 
 .portfolio {
@@ -147,6 +151,7 @@ h2 {
 
 .event__list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .event {
@@ -191,7 +196,7 @@ h2 {
 }
 
 .contact {
-    background-color: yellowgreen;
+    background-color: #1B2127;
     color: white;
     height: 150px;
     display: flex;
@@ -245,7 +250,7 @@ h2 {
 }
 
 .footer {
-    background-color: #1b1b1b;
+    background-color: #1B2127;
     color: white;
     display: flex;
     align-items: center;
