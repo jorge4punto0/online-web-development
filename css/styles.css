@@ -6,262 +6,261 @@ celeste: #026fff
 */
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
-    width: 1000px;
-    margin: 0 auto;
-    background: #1B2127;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  width: 1000px;
+  margin: 0 auto;
+  background: #1b2127;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fjalla One', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
 }
 
 ol,
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 40px;
-    line-height: 1.5em;
-    font-weight: 400;
-    letter-spacing: -.2px;
-    color: white;
-    margin: 0px;
-    /* text-transform: uppercase;
+  font-size: 40px;
+  line-height: 1.5em;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: white;
+  margin: 0px;
+  /* text-transform: uppercase;
     text-decoration: dashed; */
 }
 
 h1 strong {
-    color: yellowgreen;
+  color: yellowgreen;
 }
 
 h2 {
-    color: yellowgreen;
-    text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 40px;
+  color: yellowgreen;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
 }
 
 .header {
-    background-color: #1b2127;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
 }
 
 .logo img {
-    height: 50px;
+  height: 50px;
 }
 
 .menu {
-    height: inherit;
+  height: inherit;
 }
 
 .header ol {
-    display: flex;
-    height: inherit;
+  display: flex;
+  height: inherit;
 }
 
 .header ol li {
-    height: inherit;
+  height: inherit;
 }
 
 .header a {
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 10px;
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .hero {
-    height: 300px;
-    background-color: #1b2127;
-    display: flex;
-    align-items: space;
-    justify-content: space-between;
+  height: 300px;
+  background-color: #1b2127;
+  display: flex;
+  align-items: space;
+  justify-content: space-between;
 }
 
 .hero img {
-    object-fit: cover; 
-    height: 300px;
+  object-fit: cover;
+  height: 300px;
 }
 
 .portfolio {
-    background: #fafafa;
-    padding: 20px;
+  background: #fafafa;
+  padding: 20px;
 }
 
 .projects {
-    border: 1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    padding: 20px;
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .project strong {
-    font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .project__details {
-    width: 500px;
+  width: 500px;
 }
 
 .project__title {
-    font-size: 30px;
-    margin: 0 0 10px 0;
+  font-size: 30px;
+  margin: 0 0 10px 0;
 }
 
 .project__course,
 .project__date,
 .project__url {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
-
 .project__imageContainer {
-    width: 500px;
+  width: 500px;
 }
 
 .project__description {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .events h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .event__list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .event {
-    margin: 10px;
-    width: 480px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    overflow: hidden;
-    background-color: #f4fbff;
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f4fbff;
 }
 
 .event__imageContainer,
 .event__image {
-    width: inherit;
+  width: inherit;
 }
 
 .event__image {
-    height: 250px;
-    object-fit: cover;
+  height: 250px;
+  object-fit: cover;
 }
 
 .event__details {
-    margin: 20px 40px;
-    margin-top: -40px;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    text-align: center;
+  margin: 20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
 }
 
 .event__description {
-    text-align: left;
+  text-align: left;
 }
 
 .event__url {
-    color: yellowgreen;
-    border: 1px solid;
-    padding: 5px 20px;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
+  color: yellowgreen;
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 5px;
 }
 
 .contact {
-    background-color: #1B2127;
-    color: white;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #1b2127;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .form__email input {
-    border-color: gray;
-    border-style: solid;
-    padding: 15px;
-    border-radius: 5px;
+  border-color: gray;
+  border-style: solid;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .form__email button {
-    width: 100px;
-    display: block;
-    background: transparent;
-    color: white;
-    padding: 5px 0;
-    border-radius: 5px;
-    margin: auto;
+  width: 100px;
+  display: block;
+  background: transparent;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+  margin: auto;
 }
 
 .form__email h3 {
-    font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .social__link {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px;
-    margin: 0 10px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px;
+  margin: 0 10px;
 }
 
 .social__link.twitter {
-    background-image: url('../img/github.svg');
+  background-image: url("../img/twitter.svg");
 }
 
-.social__link.gitlab {
-    background-image: url('../img/github.svg');
+.social__link.instagram {
+  background-image: url("../img/instagram.svg");
 }
 
-.social__link.github {
-    background-image: url('../img/github.svg');
-}
-
-.social__link.linkedin {
-    background-image: url('../img/github.svg');
+.social__link.facebook {
+  background-image: url("../img/facebook.svg");
 }
 
 .footer {
-    background-color: #1B2127;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer img {
-    vertical-align: middle;
-    width: 60px;
+  vertical-align: middle;
+  width: 60px;
 }
 
 .footer a {
-    color: white;
+  color: white;
 }
